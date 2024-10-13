@@ -1,0 +1,50 @@
+.art-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.art-detail img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.art-detail h2 {
+  font-size: 2em;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.art-detail h3 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.art-detail p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.art-detail a {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.art-detail-page input[type='range'] {
+  margin: 20px 0;
+  width: 80%;
+}
+
+.art-detail a:hover {
+  text-decoration: underline;
+  color: #360404;
+}
